@@ -158,7 +158,7 @@ nav.primary-nav a:hover::after{width:100%;}
 /* ============ INTRO / ABOUT ============ */
 .intro{padding:120px 0 100px; background:var(--ivory);}
 .intro-grid{display:grid; grid-template-columns:.9fr 1.1fr; gap:70px; align-items:center;}
-.intro-media{aspect-ratio:4/5; overflow:hidden; border-radius:var(--radius); box-shadow:0 30px 60px rgba(22,48,42,.18);}
+.intro-media{aspect-ratio:4/5; overflow:hidden; border-radius:var(--radius); box-shadow:0 30px 60px rgba(22,48,42,.18);   }
 .intro h2{font-size:clamp(1.9rem,3.6vw,3.1rem); color:var(--forest); max-width:12ch;}
 .intro-text p{font-size:16px; line-height:1.8; color:#4b453c; margin-bottom:18px;}
 .intro-stats{display:flex; gap:44px; margin-top:36px; flex-wrap:wrap;}
@@ -352,7 +352,7 @@ footer{background:var(--forest-deep); color:rgba(246,241,230,.7); padding:90px 0
   nav.primary-nav{display:none;}
   .hamburger{display:flex;}
   .intro-grid{grid-template-columns:1fr; gap:36px;}
-  .intro-media{aspect-ratio:16/10;}
+  .intro-media{aspect-ratio:16/20;  }
   .quality-head{grid-template-columns:1fr; gap:24px;}
   .quality-grid{grid-template-columns:repeat(2,1fr);}
   .product-grid{grid-template-columns:repeat(2,1fr);}
